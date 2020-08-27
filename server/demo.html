@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="../client/js/jquery-1.12.4.js"></script>
+	</head>
+	<body>
+		<button class="addToCart">在详情页加入购物车功能按钮</button>
+	<script>
+		//增加商品
+		
+		$('.addToCart').click(function(){
+		    $.ajax({
+		        url:'./interface/addwq.php',
+		        dataType:'json',
+		        data:{
+		            id:'435435',
+		            name:"茶杯",
+		            img:'./img/chabei.jpg',
+		            num:1,
+		            price:45
+		        },
+		        success:function(res){
+		            if(res.code){
+		                alert('商品加入成功')
+		            }else{
+		                alert('商品加入失败')
+		            }
+		        }
+		    })
+		})
+	</script>
+	</body>
+</html>

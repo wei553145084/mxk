@@ -1,0 +1,185 @@
+/* 居中 */
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+/* 头部 */
+#header{
+	height: 77px;
+	margin: 15px auto;
+	
+}
+/* 头部logo */
+.head_logo{
+	display: block;
+	width: 421px;
+	height: 63px;
+	vertical-align: middle;
+	margin-top:7px;
+	margin-left: 60%;
+}
+.icons{
+    background: url(../images/default_icon_bg.png) no-repeat 0px -1px;
+}
+.logo{
+	float: left;
+}
+/* 主体 */
+#main{
+	width: 100%;
+}
+#main_inner{
+	height: 500px;
+	padding: 20px  0 0 10px;
+}
+/* banner */
+.banner{
+	float: left;
+}
+/* 登录界面 */
+.login{
+	background-color: #f2f2f2;
+	float: right;
+	width: 410px;
+	height: 400px;
+	margin-right: 100px;
+}
+.ps{
+	
+	font-size: 15px;
+	font-weight: bolder;
+	color: red;
+}
+
+
+.qr{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 110px;
+}
+/* 登录头部 */
+.login_top{
+	height: 28px;
+	padding: 30px 0 0 25px;
+	margin-bottom: 24px;
+}
+.lt{
+	display: block;
+	width: 180px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	font-size: 24px;
+	float: left;
+}
+.lt:nth-child(1){
+	border-right:1px solid #C12E2A ;
+}
+.lt:nth-child(2){
+	border-left: 1px solid #C12E2A;
+}
+/* 登录主体 */
+.login_main{
+	padding-left: 30px;
+}
+/* 输入框 */
+.txt{
+	padding-left: 10px;
+	display: block;
+	width: 336px;
+	height: 48px;
+	border: 1px solid #999;
+	float: left;
+	margin: 7px 18px 7px 0;
+
+}
+/* 登录按钮 */
+#sub{
+	padding-left: 0;
+	width: 348px;
+	background-color: #ff6700;
+	border: none;
+	color: #fff;
+	font-size: 14px;
+	line-height: 48px;
+	margin-bottom: 5px;
+}
+#sub:hover{
+	cursor: pointer;
+}
+/* 其他登录注册 */
+.main_txt{
+	float: left;
+	padding: 0 0 0 130px;
+	text-align: center;
+	margin-right: 138px;
+}
+.mta{
+	display: block;
+	margin-bottom: 10px;
+	font-size: 14px;
+	color: #ff6700;
+}
+.mt_footer{
+	float: left;
+	
+}
+.mt_footer a{
+	width: 70px;
+	height: 14px;
+	line-height: 14px;
+	display: inline-block;
+	float: left;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.mt_footer a:nth-child(1){
+	border-right: 1px solid #b399a6;
+}
+.mt_footer a:nth-child(2){
+	width: 70px;
+	border-right: 1px solid #c4eaff;
+}
+/* 登录底部 */
+.footer{
+	float: left;
+}
+/* 文字 */
+.footer_txt{
+	margin-top: 5px;
+	margin-left: 30px;
+	width: 354px;
+	text-align: center;
+	font-size: 14px;
+	clear: #bbb;
+	border: none;
+	border-top:1px solid #E0E0E0;
+}
+/* 图标盒子 */
+.box_a{
+	margin-top: 5px;
+	padding-left:76px ;
+}
+.icons_login{
+	float: left;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin: 0 17px ;
+	
+}
+.icons1{
+	background: url(../images/qq.png);
+}
+.icons2{
+	background: url(../images/wb.png);
+}
+.icons3{
+	background: url(../images/zfb.png);
+}
+.icons4{
+	background: url(../images/wx.png);
+}
+
+
