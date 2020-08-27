@@ -1,5 +1,4 @@
 //查询并显示商品
-// localStorage.setItem('id', '20200803')
 var id = localStorage.getItem('id')
 
 function showCart_shop() {
@@ -82,3 +81,4 @@ $('.addToCart').click(function() {
 		})
 	}
 })
+
