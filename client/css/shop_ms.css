@@ -115,6 +115,19 @@
 	font-size: 20px;
 
 }
+#timer{
+	float: right;
+	width: 410px;
+	height: 120px;
+	padding-top: 40px;
+	padding-left: 20px;
+	font-size: 20px;
+}
+#timer p{
+	font-size: 18px;
+	color: #FF6602;
+	margin-bottom: 10px;
+}
 .tilbox h2{
 	margin-top: 30px;
 	font-size: 40px;

@@ -16,7 +16,12 @@ $(".login").on('click','.logout',function(){
 $(".shop").click(function(){
 	var id = $(this).attr('id');
 	localStorage.setItem('id',id)
-	location.href="../pages/shop.html"
+	if(id==20200802){
+		location.href="../pages/shop_ms.html"
+	}else{
+		location.href="../pages/shop.html"
+	}
+	
 })
 $(".top").click(function(){
 	location.href="#"
